@@ -1,0 +1,100 @@
+body{
+  background-color: rgb(240,200,200);
+  margin-bottom: 30px;
+}
+#search{
+  margin-top: 200px;
+  background-color: #fa9581; //rgb(240,160,160);
+  padding: 20px 20px 20px 20px;
+  border-radius: 8px;
+  border: 5px solid rgb(240,200,200);
+}
+#search input{
+  width: 100%;
+  font-size: 20px;
+  border: 1px solid rgb(240,200,200);
+  border-left: none;
+  padding-left: 10px;
+  height: 34px;
+}
+#search button{
+  width: 100px;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  float: right;
+  margin-top: 20px;
+}
+#searchIcon{
+  background-color: white;
+  height: 34px;
+  border: 1px solid rgb(240,200,200);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  float: right;
+  width: 50px;
+}
+#searchIcon:hover{
+  background-color: rgb(240,200,200);
+}
+#searchIcon span{
+  font-size: 23px;
+  padding-top: 2px;
+  padding-left: 10px;
+  color: #555;
+}
+#search .col-xs-12{
+  padding-right: 0;
+  padding-left: 0;
+}
+.result{
+  height: 100px;
+  background-color: #fa9581; //rgb(240,160,160);
+  border: 5px solid rgb(240,200,200);
+  display: none;
+  table-layout: fixed;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: black;
+}
+.result:hover{
+  background-color: #f98068;
+}
+.result:active{
+  background-color: #901c06;
+}
+.row#results{
+  margin-top: 30px;
+}
+
+.result div{
+  font-weight: bold;
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+}
+
+#randomIcon{
+  background-color: #eee;
+  height: 34px;
+  border: 1px solid rgb(240,200,200);
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  float: left;
+  width: 50px;
+
+}
+#randomIcon:hover{
+  background-color: rgb(220,200,200);
+}
+#randomIcon span{
+  font-size: 23px;
+  padding-top: 2px;
+  padding-left: 10px;
+  color: #555;
+}
