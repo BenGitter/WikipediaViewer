@@ -17,7 +17,7 @@ function jsonCall(){
     sroffset = 0;
   }
   var search = $("#search input").val();
-  var url = "http://en.wikipedia.org//w/api.php?callback=?";
+  var url = "https://en.wikipedia.org//w/api.php?callback=?";
   $.getJSON(url, {
       action: "query",
       format: "json",
